@@ -12,6 +12,8 @@
         {% endblock %}
     </head>
     <body>
+        {% block navbar %}{% endblock %}
+         {% include 'menu.html.twig' %}
         {% block body %}{% endblock %}
     </body>
 </html>
